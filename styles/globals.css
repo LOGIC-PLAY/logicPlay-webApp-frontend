@@ -2,10 +2,11 @@
 
 html,
 body {
-  background-color: black;
+  background-color: #181A1C;
   padding: 0;
   margin: 0;
   font-family: 'Roboto Flex';
+  color: white;
 }
 
 a {
@@ -15,4 +16,16 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #F7CE46;
 }
