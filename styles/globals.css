@@ -2,21 +2,20 @@
 
 html,
 body {
-  background-color: #181A1C;
-  color: white;
+  background-color: #181A1C !important;
+  color: white !important;
   padding: 0;
   margin: 0;
   font-family: 'Roboto Flex';
   color: white;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+}
+
+.active {
+  color: red;
 }
 
 ::-webkit-scrollbar {
